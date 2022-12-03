@@ -20,7 +20,7 @@ default_args = {
 }
 
 
-with DAG(dag_id="demo", start_date=datetime(2022, 11, 2), default_args=default_args, schedule="@once") as dag:
+with DAG(dag_id="demo", start_date=datetime(2022, 11, 2), default_args=default_args, schedule="@daily") as dag:
 
     @task
     def get_tweets_regarding_to(topic: str, count):
