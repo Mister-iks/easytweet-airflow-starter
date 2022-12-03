@@ -41,8 +41,14 @@ docker-compose up -d --no-deps --build airflow-webserver airflow-scheduler
 
 ## Starting
 
-To start the project run
-
+Before starting the project, go to `./dags/main_dag.py` and change  variables
+```
+CONSUMER_KEY = "your_consumer_key"
+CONSUMER_SECRET_KEY = "your_consumer_secret_key"
+ACCESS_TOKEN = "your_access_token"
+ACCESS_TOKEN_SECRET = "your_access_token_secret"
+```
+after this you can run
 ```
 docker compose-up
 ```
