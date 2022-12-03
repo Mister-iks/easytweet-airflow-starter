@@ -1,5 +1,5 @@
 # easytweet-airflow-starter
-
+![Logo](Easy_Tweet_Logo.jpg)
 Is a subproject of the EasyTweet project which is a data collection and analysis python package that focuses on the social network twitter.
 This sub-project named easytweet-airflow-starter is an implementation of some basic features of the package on Apache Airflow.
 
