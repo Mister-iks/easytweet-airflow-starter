@@ -43,4 +43,4 @@ with DAG(dag_id="demo", start_date=datetime(2022, 11, 2), default_args=default_a
         timeline.trends()
 
 
-    get_trends() >> get_tweets_regarding_to()
+    get_trends() >> get_tweets_regarding_to(topic="messi", count=90)
