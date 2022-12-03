@@ -24,8 +24,17 @@ Before starting the project, make sure that you
 ## Setting up Dev
 
 ```
-  git pull
+  git pull https://github.com/Mister-iks/easytweet-airflow-starter.git
+  cd easytweet-airflow-starter
 ```
+## Structure
+
+`./dags` : contains the dags that should be executed
+
+`./logs` : contains the logs of our application
+
+`./plugins` : contains custom plugins of our application
+
 
 ## Building
 
